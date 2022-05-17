@@ -1,0 +1,256 @@
+<testsuites name="jest tests" tests="6" failures="6" time="1.314">
+  <testsuite name="LeaderBoard" errors="0" failures="6" skipped="0" timestamp="2022-05-09T15:06:53" time="1.314" tests="6">
+    <testcase classname="LeaderBoard should render the table and buttons" name="LeaderBoard should render the table and buttons" time="0.048">
+      <failure>TypeError: _response.response.map is not a function
+    at Rank (/projects/challenge/src/Component/Rank.js:43:17)
+    at renderWithHooks (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
+    at mountIndeterminateComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+    at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /projects/challenge/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/index.js:82:26)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:45:9)
+    at Object.asyncJestLifecycle (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:53:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+      <failure>TypeError: getByTestId is not a function
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:55:17)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="LeaderBoard should Navigate to Correct Route on button click" name="LeaderBoard should Navigate to Correct Route on button click" time="0.007">
+      <failure>TypeError: _response.response.map is not a function
+    at Rank (/projects/challenge/src/Component/Rank.js:43:17)
+    at renderWithHooks (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
+    at mountIndeterminateComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+    at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /projects/challenge/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/index.js:82:26)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:45:9)
+    at Object.asyncJestLifecycle (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:53:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+      <failure>TypeError: getByTestId is not a function
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:71:16)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="LeaderBoard should Sort by Rank" name="LeaderBoard should Sort by Rank" time="0.005">
+      <failure>TypeError: _response.response.map is not a function
+    at Rank (/projects/challenge/src/Component/Rank.js:43:17)
+    at renderWithHooks (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
+    at mountIndeterminateComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+    at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /projects/challenge/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/index.js:82:26)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:45:9)
+    at Object.asyncJestLifecycle (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:53:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+      <failure>TypeError: getByTestId is not a function
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:89:22)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="LeaderBoard should Sort by Name" name="LeaderBoard should Sort by Name" time="0.006">
+      <failure>TypeError: _response.response.map is not a function
+    at Rank (/projects/challenge/src/Component/Rank.js:43:17)
+    at renderWithHooks (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
+    at mountIndeterminateComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+    at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /projects/challenge/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/index.js:82:26)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:45:9)
+    at Object.asyncJestLifecycle (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:53:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+      <failure>TypeError: getByTestId is not a function
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:95:22)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="LeaderBoard should Sort by Points" name="LeaderBoard should Sort by Points" time="0.005">
+      <failure>TypeError: _response.response.map is not a function
+    at Rank (/projects/challenge/src/Component/Rank.js:43:17)
+    at renderWithHooks (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
+    at mountIndeterminateComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+    at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /projects/challenge/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/index.js:82:26)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:45:9)
+    at Object.asyncJestLifecycle (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:53:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+      <failure>TypeError: getByTestId is not a function
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:101:24)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="LeaderBoard should Sort by Age" name="LeaderBoard should Sort by Age" time="0.005">
+      <failure>TypeError: _response.response.map is not a function
+    at Rank (/projects/challenge/src/Component/Rank.js:43:17)
+    at renderWithHooks (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
+    at mountIndeterminateComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+    at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /projects/challenge/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/index.js:82:26)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:45:9)
+    at Object.asyncJestLifecycle (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:53:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+      <failure>TypeError: getByTestId is not a function
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:107:21)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
